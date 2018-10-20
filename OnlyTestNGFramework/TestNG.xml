@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DBS Recruiter">
+  <test name="Sanity">
+    <classes>
+      <class name="com.capg.demotestng.TestNGDemoTest"/>
+      <class name="com.capg.demotestng.SideMenuTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="Regression">
+    <classes>
+      <class name="com.capg.demotestng.RequisitionsTest"/>
+    </classes>
+  </test> <!-- Test -->  
+</suite> <!-- Suite -->

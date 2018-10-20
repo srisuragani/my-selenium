@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="DBS Recruiter" duration-ms="143" started-at="2018-09-09T03:47:08Z" finished-at="2018-09-09T03:47:08Z">
+    <groups>
+    </groups>
+    <test name="Sanity" duration-ms="59" started-at="2018-09-09T03:47:08Z" finished-at="2018-09-09T03:47:08Z">
+      <class name="com.capg.demotestng.TestNGDemoTest">
+        <test-method status="PASS" signature="loginPage()[pri:0, instance:com.capg.demotestng.TestNGDemoTest@b97c004]" name="loginPage" duration-ms="14" started-at="2018-09-09T09:17:08Z" finished-at="2018-09-09T09:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPage -->
+        <test-method status="PASS" signature="welcomePage()[pri:0, instance:com.capg.demotestng.TestNGDemoTest@b97c004]" name="welcomePage" duration-ms="3" started-at="2018-09-09T09:17:08Z" finished-at="2018-09-09T09:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- welcomePage -->
+      </class> <!-- com.capg.demotestng.TestNGDemoTest -->
+      <class name="com.capg.demotestng.SideMenuTest">
+        <test-method status="PASS" signature="sideMenuNavigation()[pri:0, instance:com.capg.demotestng.SideMenuTest@5056dfcb]" name="sideMenuNavigation" duration-ms="2" started-at="2018-09-09T09:17:08Z" finished-at="2018-09-09T09:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sideMenuNavigation -->
+      </class> <!-- com.capg.demotestng.SideMenuTest -->
+    </test> <!-- Sanity -->
+    <test name="Regression" duration-ms="8" started-at="2018-09-09T03:47:08Z" finished-at="2018-09-09T03:47:08Z">
+      <class name="com.capg.demotestng.RequisitionsTest">
+        <test-method status="PASS" signature="requisitionsPageTest()[pri:0, instance:com.capg.demotestng.RequisitionsTest@3a82f6ef]" name="requisitionsPageTest" duration-ms="2" started-at="2018-09-09T09:17:08Z" finished-at="2018-09-09T09:17:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- requisitionsPageTest -->
+      </class> <!-- com.capg.demotestng.RequisitionsTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- DBS Recruiter -->
+</testng-results>
